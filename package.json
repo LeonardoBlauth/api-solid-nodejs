@@ -1,0 +1,21 @@
+{
+  "name": "api-solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leonardo Blauth <leonardo.blauth@dealerup.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "dependencies": {
+    "fastify": "^4.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2"
+  }
+}
