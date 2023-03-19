@@ -18,7 +18,7 @@ export class InMemoryCheckInsRepository implements CheckInsRepository {
       return null
     }
 
-    return checkIn
+    return structuredClone(checkIn)
   }
 
   async findManyByUserId(userId: string, page: number): Promise<CheckIn[]> {
