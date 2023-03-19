@@ -31,6 +31,6 @@ GymPass style app
 ## RNFs (Requisitos não Funcionais)
 
 - [X] A senha do usuário precisa estar criptografada;
-- [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
+- [X] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token)
