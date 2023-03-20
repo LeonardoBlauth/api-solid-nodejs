@@ -1,6 +1,7 @@
 import { FastifyInstance } from 'fastify'
 
 import { verifyJWT } from '@/http/middlewares/verify-jwt'
+
 import { create } from './create'
 import { nearby } from './nearby'
 import { search } from './search'
